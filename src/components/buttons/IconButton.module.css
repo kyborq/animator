@@ -1,0 +1,19 @@
+.Button {
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  outline: none;
+  border: none;
+  background-color: #f2f2f2;
+  border-radius: 14px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  transition: 150ms;
+}
+
+.Button:active {
+  transform: scale(0.97);
+  transition: 150ms;
+  background-color: #e2e2e2;
+}
